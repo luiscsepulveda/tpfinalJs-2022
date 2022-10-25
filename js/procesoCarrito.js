@@ -13,7 +13,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Faith is what keeps us going, what moves us. We have in different colors.",
       precio: 17,
-      img: "../img/img_card/faith blanca navy.png",
+      img: "../img_card/faith blanca navy.png",
     },
     {
       id: 3,

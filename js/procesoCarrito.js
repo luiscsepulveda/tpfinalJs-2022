@@ -5,7 +5,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "This t-shirt is not only cute, but it shows that above all God is First Bro.",
       precio: 18,
-      img: "/img/img_card/GFb man blue.png",
+      img: "./img/img_card/GFbmanblue.png",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Faith is what keeps us going, what moves us. We have in different colors.",
       precio: 17,
-      img: "../img_card/faith blanca navy.png",
+      img: "./img/img_card/faithblancanavy.png",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "They are not afraid, those who constantly pray.",
       precio: 18,
-      img: "./img/img_card/NPJP back.png",
+      img: "./img/img_card/NPJPback.png",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Just trust, keep going, don't look back. Trust",
       precio: 17,
-      img: "./img/img_card/ST man.png",
+      img: "./img/img_card/STman.png",
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Simply Trust and Never Doubt",
       precio: 18,
-      img: "./img/img_card/logo back white.png",
+      img: "./img/img_card/logobackwhite.png",
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Eren Jeager vuelve en formato gamer...",
       precio: 17,
-      img: "./img/img_card/ND roja.png",
+      img: "./img/img_card/NDroja.png",
     },
     {
       id: 7,
@@ -53,7 +53,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "They are not afraid, those who constantly pray.",
       precio: 19,
-      img: "./img/img_card/NPJP red.png",
+      img: "./img/img_card/NPJPred.png",
     },
     {
       id: 8,
@@ -69,7 +69,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Just trust, keep going, don't look back. Trust",
       precio: 19,
-      img: "./img/img_card/NPJP black_.png",
+      img: "./img/img_card/NPJPblack_.png",
     },
     {
       id: 10,

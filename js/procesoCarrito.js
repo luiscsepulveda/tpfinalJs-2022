@@ -5,7 +5,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "This t-shirt is not only cute, but it shows that above all God is First Bro.",
       precio: 18,
-      img: "../img/img_card/GFbmanblue.png",
+      img: "img/img_card/GFbmanblue.png",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Faith is what keeps us going, what moves us. We have in different colors.",
       precio: 17,
-      img: ".../img/img_card/faithblancanavy.png",
+      img: "/img/img_card/faithblancanavy.png",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "They are not afraid, those who constantly pray.",
       precio: 18,
-      img: "./img/img_card/NPJPback.png",
+      img: "/img/img_card/NPJPback.png",
     },
     {
       id: 4,

@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #E3D8D6;
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #073763 0%, white 100%);
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar .navbar-brand img {
+    cursor: pointer;
+    width: 100px;
+    margin-left: 15px;
+
+
+}
+
+.navbar .nav__cart svg {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .nav__cart svg:hover {
+    fill: goldenrod;
+}
+
+.navbar .nav-item {
+    font-size: 20px;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotateY(0);
+        transform: rotateY(0);
+    }100% {
+        transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+.logo:hover {
+    animation: logo 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: 4rem 9rem;
+}
+#contenedor .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 17rem;
+    padding: 17px;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+.card:hover {
+    animation: card 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+    @keyframes card {
+    0% {
+        transform: translateZ(0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+    100% {
+        transform: translateZ(50px);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35); } }
+
+/* Footer*/
+.footer {
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-image: linear-gradient(to left, #073763 0%, white 100%);
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.social-links ul .social-items {
+    list-style: none;
+}
+
+.social-links ul .social-items a {
+    padding: 10px 20px;
+    font-size: 35px;
+    color: darkblue;
+    transition: all .25s;
+}
+
+.social-links ul .social-items a:hover {
+    color: darkgoldenrod;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-links ul {
+    display: flex;
+    padding: 0;
+}
+
+.quick-links ul .quick-items {
+    list-style: none;
+}
+
+.quick-links ul .quick-items a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+    color: black;
+    transition: all .25s;
+}
+
+.quick-links ul .quick-items a:hover {
+    color: darkgoldenrod;
+}
+
+.outer-footer {
+    padding: 15px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 765px) {
+    #contenedor {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2rem 4rem;
+
+    }
+    .card .img{
+        padding: 5px;
+        width: 200px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+}

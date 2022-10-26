@@ -5,7 +5,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "This t-shirt is not only cute, but it shows that above all God is First Bro.",
       precio: 18,
-      img: "img/img_card/GFbmanblue.png",
+      img: "../img_card/GFbmanblue.png",
     },
     {
       id: 2,

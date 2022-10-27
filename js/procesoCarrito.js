@@ -99,7 +99,7 @@ const stockProductos = [
     carrito = JSON.parse(localStorage.getItem("carrito")) || [];
   
     mostrarCarrito();
-    document.querySelector("#activarFuncion").click("procesarPedido");
+    document.querySelector("#activarFuncion").click(procesarPedido);
   });
   if(formulario){
     formulario.addEventListener('submit', enviarCompra)
@@ -164,7 +164,7 @@ const stockProductos = [
   };
   
   const mostrarCarrito = () => {
-    const modalBody = document.querySelector(".modal, .modal-body");
+    const modalBody = document.querySelector(".modal .modal-body");
     if (modalBody) {
       modalBody.innerHTML = "";
       carrito.forEach((prod) => {

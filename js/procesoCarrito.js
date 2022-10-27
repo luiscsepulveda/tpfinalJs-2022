@@ -21,7 +21,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "They are not afraid, those who constantly pray.",
       precio: 18,
-      img: "img/img_card/NPJPback.png",
+      img: "Img/img_card/NPJPback.png",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Just trust, keep going, don't look back. Trust",
       precio: 17,
-      img: "img/img_card/STman.png",
+      img: "Img/img_card/STman.png",
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Simply Trust and Never Doubt",
       precio: 18,
-      img: "img/img_card/logobackwhite.png",
+      img: "Img/img_card/logobackwhite.png",
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Eren Jeager vuelve en formato gamer...",
       precio: 17,
-      img: "img/img_card/NDroja.png",
+      img: "Img/img_card/NDroja.png",
     },
     {
       id: 7,
@@ -53,7 +53,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "They are not afraid, those who constantly pray.",
       precio: 19,
-      img: "img/img_card/NPJPred.png",
+      img: "Img/img_card/NPJPred.png",
     },
     {
       id: 8,
@@ -61,7 +61,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Faith is what keeps us going, what moves us. We have in different colors.",
       precio: 18,
-      img: "img/img_card/faith_pink.png",
+      img: "Img/img_card/faith_pink.png",
     },
     {
       id: 9,
@@ -69,7 +69,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Just trust, keep going, don't look back. Trust",
       precio: 19,
-      img: "img/img_card/NPJPblack_.png",
+      img: "Img/img_card/NPJPblack_.png",
     },
     {
       id: 10,
@@ -77,7 +77,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Just trust, keep going, don't look back. Trust",
       precio: 18,
-      img: "img/img_card/STwomen230px.png",
+      img: "Img/img_card/STwomen230px.png",
     },
   ];
   let carrito = [];
@@ -99,7 +99,7 @@ const stockProductos = [
     carrito = JSON.parse(localStorage.getItem("carrito")) || [];
   
     mostrarCarrito();
-    document.querySelector("#activarFuncion").click(procesarPedido);
+    document.querySelector("#activarFuncion").click("procesarPedido");
   });
   if(formulario){
     formulario.addEventListener('submit', enviarCompra)
@@ -164,7 +164,7 @@ const stockProductos = [
   };
   
   const mostrarCarrito = () => {
-    const modalBody = document.querySelector(".modal .modal-body");
+    const modalBody = document.querySelector(".modal, .modal-body");
     if (modalBody) {
       modalBody.innerHTML = "";
       carrito.forEach((prod) => {
